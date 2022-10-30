@@ -3,13 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
-
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.construa.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+    app:startDestination="@+id/navigation_dashboard">
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -18,8 +12,20 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.construa.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_projectos"
+        android:name="com.example.construa.ui.projectos.ProjectosFragment"
+        android:label="@string/title_projectos"
+        tools:layout="@layout/fragment_projectos" />
+
+    <fragment
+        android:id="@+id/navigation_actividades"
+        android:name="com.example.construa.ui.actividades.ActividadesFragment"
+        android:label="@string/title_actividades"
+        tools:layout="@layout/fragment_actividades" />
+
+    <fragment
+        android:id="@+id/navigation_material"
+        android:name="com.example.construa.ui.material.MaterialFragment"
+        android:label="@string/title_material"
+        tools:layout="@layout/fragment_material" />
 </navigation>
