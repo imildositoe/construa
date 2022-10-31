@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.construa.databinding.FragmentMaterialBinding
-import com.example.construa.ui.projectos.MaterialViewModel
 
 class MaterialFragment : Fragment() {
 

@@ -23,7 +23,7 @@ class ProjectosFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val projectosViewModel =
-            ViewModelProvider(this).get(MaterialViewModel::class.java)
+            ViewModelProvider(this)[ProjectosViewModel::class.java]
 
         _binding = FragmentProjectosBinding.inflate(inflater, container, false)
         val root: View = binding.root
