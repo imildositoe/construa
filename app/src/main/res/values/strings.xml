@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">construa</string>
+    <string name="app_name">Construa</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_projectos">Projectos</string>
     <string name="title_actividades">Actividades</string>
     <string name="title_material">Material</string>
+    <string name="title_activity_projectos">Projecto</string>
+    <string name="tab_actividades">Actividades</string>
+    <string name="tab_material">Material</string>
 </resources>
