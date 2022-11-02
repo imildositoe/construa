@@ -1,17 +1,13 @@
 package com.example.construa
 
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
-import com.google.android.material.tabs.TabLayout
-import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.app.AppCompatActivity
-import android.view.Menu
-import android.view.MenuItem
-import com.example.construa.ui.main.SectionsPagerAdapter
+import androidx.viewpager.widget.ViewPager
 import com.example.construa.databinding.ActivityProjectosBinding
+import com.example.construa.ui.main.SectionsPagerAdapter
+import com.google.android.material.tabs.TabLayout
 
-class ProjectosActivity : AppCompatActivity() {
+class ProjectoActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityProjectosBinding
 
@@ -26,11 +22,5 @@ class ProjectosActivity : AppCompatActivity() {
         viewPager.adapter = sectionsPagerAdapter
         val tabs: TabLayout = binding.tabs
         tabs.setupWithViewPager(viewPager)
-        val fab: FloatingActionButton = binding.fab
-
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
     }
 }

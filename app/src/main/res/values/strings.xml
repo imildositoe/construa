@@ -7,4 +7,6 @@
     <string name="title_activity_projectos">Projecto</string>
     <string name="tab_actividades">Actividades</string>
     <string name="tab_material">Material</string>
+    <string name="viewpager">ViewPager</string>
+    <string name="tablayout">TabLayout</string>
 </resources>
