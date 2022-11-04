@@ -1,4 +1,4 @@
-package com.example.construa
+package com.example.construa.selected_projecto
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
